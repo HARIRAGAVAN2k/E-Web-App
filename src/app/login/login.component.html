@@ -1,0 +1,80 @@
+<div class="login-section min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-indigo-100 p-4">
+  <div class="login-box w-full max-w-sm bg-white shadow-xl rounded-xl p-6 space-y-6 transform transition-all duration-500 hover:scale-105">
+    <h2 class="text-3xl font-bold text-center text-indigo-800 mb-4">
+      Welcome Back
+    </h2>
+    <form class="space-y-4">
+      <!-- Username Field -->
+      <div class="form-group">
+        <label for="username" class="block text-sm font-semibold text-gray-800">
+          Username
+        </label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your username"
+          class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300"
+        />
+      </div>
+
+      <!-- Password Field -->
+      <div class="form-group">
+        <label for="password" class="block text-sm font-semibold text-gray-800">
+          Password
+        </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="********"
+          class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300"
+        />
+      </div>
+
+      <!-- Login Button -->
+      <div class="flex items-center justify-between">
+        <button
+          type="button"
+          class="bg-indigo-600 text-white py-2 px-4 rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105"
+        >
+          Sign In
+        </button>
+        <a
+          href="#"
+          class="text-sm text-indigo-600 hover:text-indigo-700 transition duration-300 font-medium"
+        >
+          Forgot Password?
+        </a>
+      </div>
+    </form>
+
+    <!-- Divider -->
+    <div class="divider flex items-center justify-center my-4">
+      <span class="text-gray-400 text-sm">Or sign in with</span>
+    </div>
+
+    <!-- Social Media Login Options -->
+    <div class="social-login flex items-center justify-center space-x-3">
+      <a href="#" aria-label="Sign in with Google" class="hover:scale-110 transition-all duration-300">
+        <img
+          src="https://img.icons8.com/fluency/48/000000/google-logo.png"
+          alt="Google"
+          class="h-8 w-8"
+        />
+      </a>
+      <a href="#" aria-label="Sign in with Facebook" class="hover:scale-110 transition-all duration-300">
+        <img
+          src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+          alt="Facebook"
+          class="h-8 w-8"
+        />
+      </a>
+      <a href="#" aria-label="Sign in with Twitter" class="hover:scale-110 transition-all duration-300">
+        <img
+          src="https://img.icons8.com/color/48/000000/twitter.png"
+          alt="Twitter"
+          class="h-8 w-8"
+        />
+      </a>
+    </div>
+  </div>
+</div>
